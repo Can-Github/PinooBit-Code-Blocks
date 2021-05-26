@@ -1,27 +1,13 @@
 namespace kodlar {
 
-    //% block="Mesafe Sensörü Giriş Pini 6"
-    export function mesafes() {
-    pins.digitalWritePin(DigitalPin.P6, 0)
+    //% block="Mesafe Sensörü Giriş Pini = $giris Çıkış Pini =$cikis"
+    export function mesafes(giris: number, cikis: number) {
+    pins.digitalWritePin(giris, 0)
     control.waitMicros(2)
-    pins.digitalWritePin(DigitalPin.P6, 1)
+    pins.digitalWritePin(giris, 1)
     control.waitMicros(10)
-    pins.digitalWritePin(DigitalPin.P6, 0)
-    mesafe = pins.pulseIn(DigitalPin.P5, PulseValue.High) / 58
-    basic.showNumber(mesafe)
-    basic.pause(100)
-    }
-}
-namespace kodlar {
-
-    //% block="Mesafe Sensörü Giriş Pini 8"
-    export function mesafes2() {
-    pins.digitalWritePin(DigitalPin.P8, 0)
-    control.waitMicros(2)
-    pins.digitalWritePin(DigitalPin.P8, 1)
-    control.waitMicros(10)
-    pins.digitalWritePin(DigitalPin.P8, 0)
-    mesafe = pins.pulseIn(DigitalPin.P7, PulseValue.High) / 58
+    pins.digitalWritePin(giris, 0)
+    mesafe = pins.pulseIn(cikis, PulseValue.High) / 58
     basic.showNumber(mesafe)
     basic.pause(100)
     }
