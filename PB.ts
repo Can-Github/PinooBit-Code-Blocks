@@ -17,8 +17,8 @@ let mesafe = 0
     export function led(girisled: number, ledDegeri: number) {
             pins.digitalWritePin(girisled, ledDegeri)
     }
-    //% block="Buzzer Modülü Pin %girisbuz Değer %BuzzerDegeri Yap"
-    //% BuzzerDegeri.min=0 BuzzerDegeri.max=1
+    //% block="Buzzer Modülü Pin %girisbuz Değer %buzzerDegeri Yap"
+    //% buzzerDegeri.min=0 buzzerDegeri.max=1
     export function buzzer(girisbuzzer: number, buzzerDegeri: number) {
             pins.digitalWritePin(girisbuzzer, buzzerDegeri)
     }
@@ -34,5 +34,13 @@ let mesafe = 0
     //% block="Potansiyometre Modülü Pin %girispot Değerini Oku"
     export function pot(girispot: number) {
             return pins.analogReadPin(girispot);
+    }
+    //% block="Joystick Modülü X Pin %girisjoyx Değerini Oku"
+    export function joystickx(girisjoyx: number) {
+            return pins.analogReadPin(girisjoyx);
+    }
+    //% block="Joystick Modülü Y Pin %girisjoyy Değerini Oku"
+    export function joysticky(girisjoyy: number) {
+            return pins.analogReadPin(girisjoyy);
     }
 }
