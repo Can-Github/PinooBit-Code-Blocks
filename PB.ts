@@ -43,4 +43,12 @@ let mesafe = 0
     export function joysticky(girisjoyy: number) {
             return pins.analogReadPin(girisjoyy);
     }
+    //% block="Toprak Nem Modülü Pin %giristvn Değerini Oku"
+    export function tvn(giristvn: number) {
+            return pins.analogReadPin(giristvn);
+    }
+    //% block="Su Seviye Modülü Pin %girissu Değerini Oku"
+    export function suseviye(girissu: number) {
+            return pins.analogReadPin(girissu);
+    }
 }
