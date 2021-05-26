@@ -1,6 +1,6 @@
 namespace pinooBit {
 let mesafe = 0
-    //% block="Mesafe Sensörü Giriş Pini = $giris Çıkış Pini =$cikis"
+    //% block="Mesafe Sensörü Giriş Pini $giris Çıkış Pini $cikis"
     export function mesafes(giris: number, cikis: number) {
     pins.digitalWritePin(giris, 0)
     control.waitMicros(2)
@@ -12,7 +12,7 @@ let mesafe = 0
     basic.pause(100)
     }
 
-    //% block="Led Modülü Pin = %girisled Değer %ledDegeri Yap"
+    //% block="Led Modülü Pin %girisled Değer %ledDegeri Yap"
     //% ledDegeri.min=0 ledDegeri.max=1
     export function led(
         girisled: number,
