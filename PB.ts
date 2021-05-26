@@ -1,7 +1,7 @@
 namespace kodlar {
 
-    //% block
-    export function mesafe_pini_p6() {
+    //% block="Mesafe Sensörü Giriş Pini 6"
+    export function mesafes() {
     pins.digitalWritePin(DigitalPin.P6, 0)
     control.waitMicros(2)
     pins.digitalWritePin(DigitalPin.P6, 1)
@@ -14,8 +14,8 @@ namespace kodlar {
 }
 namespace kodlar {
 
-    //% block
-    export function mesafe_pini_p8() {
+    //% block="Mesafe Sensörü Giriş Pini 8"
+    export function mesafes2() {
     pins.digitalWritePin(DigitalPin.P8, 0)
     control.waitMicros(2)
     pins.digitalWritePin(DigitalPin.P8, 1)
