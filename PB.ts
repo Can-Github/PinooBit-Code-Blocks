@@ -1,7 +1,7 @@
 namespace kodlar {
 
     //% block
-    export function mesafepinip6() {
+    export function mesafe_pini_p6() {
     pins.digitalWritePin(DigitalPin.P6, 0)
     control.waitMicros(2)
     pins.digitalWritePin(DigitalPin.P6, 1)
@@ -15,7 +15,7 @@ namespace kodlar {
 namespace kodlar {
 
     //% block
-    export function mesafepinip8() {
+    export function mesafe_pini_p8() {
     pins.digitalWritePin(DigitalPin.P6, 0)
     control.waitMicros(2)
     pins.digitalWritePin(DigitalPin.P6, 1)
