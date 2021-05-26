@@ -51,4 +51,8 @@ let mesafe = 0
     export function suseviye(girissu: number) {
             return pins.analogReadPin(girissu);
     }
+    //% block="Işık Algılama Modülü Pin %girisalgi Değerini Oku"
+    export function isik(girisalgi: number) {
+            return pins.analogReadPin(girisalgi);
+    }
 }
