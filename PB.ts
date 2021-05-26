@@ -1,5 +1,5 @@
-namespace kodlar {
-
+namespace pinooBit {
+let mesafe = 0
     //% block="Mesafe Sensörü Giriş Pini = $giris Çıkış Pini =$cikis"
     export function mesafes(giris: number, cikis: number) {
     pins.digitalWritePin(giris, 0)
@@ -10,5 +10,13 @@ namespace kodlar {
     mesafe = pins.pulseIn(cikis, PulseValue.High) / 58
     basic.showNumber(mesafe)
     basic.pause(100)
+    }
+
+    //% block="Led Modülü Pin = %girisled Değer %ledDegeri Yap"
+    //% ledDegeri.min=0 ledDegeri.max=1
+    export function led(
+        girisled: number,
+        ledDegeri: number) {
+            pins.digitalWritePin(girisled, ledDegeri)
     }
 }
