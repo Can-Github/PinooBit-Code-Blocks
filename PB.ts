@@ -1,3 +1,4 @@
+//% color="#18D4D6"
 namespace pinooBit {
 let mesafe = 0
     //% block="Mesafe Sensörü Giriş Pini $giris Çıkış Pini $cikis"
@@ -11,7 +12,7 @@ let mesafe = 0
     basic.showNumber(mesafe)
     basic.pause(100)
     }
-
+    //% color="#D6185D"
     //% block="Led Modülü Pin %girisled Değer %ledDegeri Yap"
     //% ledDegeri.min=0 ledDegeri.max=1
     export function led(girisled: number, ledDegeri: number) {
