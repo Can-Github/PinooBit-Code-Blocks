@@ -27,4 +27,12 @@ let mesafe = 0
     export function servo(girisservo: number, servoDegeri: number) {
             pins.digitalWritePin(girisservo, servoDegeri)
     }
+    //% block="Hareket Algılama(PIR) Modülü Pin %girispir Değerini Oku"
+    export function pir(girispir: number) {
+            return pins.digitalReadPin(girispir);
+    }
+    //% block="Potansiyometre Modülü Pin %girispot Değerini Oku"
+    export function pot(girispot: number) {
+            return pins.analogReadPin(girispot);
+    }
 }
