@@ -14,9 +14,17 @@ let mesafe = 0
 
     //% block="Led Modülü Pin %girisled Değer %ledDegeri Yap"
     //% ledDegeri.min=0 ledDegeri.max=1
-    export function led(
-        girisled: number,
-        ledDegeri: number) {
+    export function led(girisled: number, ledDegeri: number) {
             pins.digitalWritePin(girisled, ledDegeri)
+    }
+    //% block="Buzzer Modülü Pin %girisbuz Değer %BuzzerDegeri Yap"
+    //% BuzzerDegeri.min=0 BuzzerDegeri.max=1
+    export function buzzer(girisbuzzer: number, buzzerDegeri: number) {
+            pins.digitalWritePin(girisbuzzer, buzzerDegeri)
+    }
+    //% block="Servo Motor Modülü Pin %girisservo Değer %servoDegeri Yap"
+    //% servoDegeri.shadow="protractorPicker"
+    export function servo(girisservo: number, servoDegeri: number) {
+            pins.digitalWritePin(girisservo, servoDegeri)
     }
 }
