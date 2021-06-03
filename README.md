@@ -9,6 +9,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/can-github/pb-mesafe-kod** and import
+* or search for extension PinooBit, Pinoo
 
 ## Edit this project ![Build status badge](https://github.com/can-github/pb-mesafe-kod/workflows/MakeCode/badge.svg)
 
