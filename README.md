@@ -5,6 +5,7 @@ We developed this repo to use Microbit more easily.
 We are about to develop a new card called PinooBit in order to use each of the GPIO pins available on Microbit actively and easily.
 When users add this extension, a scheme called PinooBit will automatically open between the block tabs.
 With this estension, you will be able to easily code and use sensors compatible with PinooBit.
+It's much easier for kids to learn to code with PinooBit and this extension.
 
 You can purchase PinooBit at this link https://www.pinoo.io/
 
