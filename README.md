@@ -6,6 +6,8 @@ We are about to develop a new card called PinooBit in order to use each of the G
 When users add this extension, a scheme called PinooBit will automatically open between the block tabs.
 With this estension, you will be able to easily code and use sensors compatible with PinooBit.
 
+You can purchase PinooBit at this link https://www.pinoo.io/
+
 > Open this page at [https://can-github.github.io/pinoobit-code-blocks/](https://can-github.github.io/pinoobit-code-blocks/)
 
 ## Use as Extension
