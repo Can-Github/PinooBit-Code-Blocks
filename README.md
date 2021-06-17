@@ -1,94 +1,38 @@
-# MakeCode editor extension sample
+# PinooBit Code Blocks
 
-Fork this repo to create your own Microsoft MakeCode editor extension (PXT).
+We developed this repo to use Microbit more easily.
 
-An editor extension is an extension to MakeCode that has a custom page hosted on Github pages. 
-When a user adds the extension, the MakeCode editor automatically adds a button to the configured toolbox category. Clicking on that button loads an iframe of the editor extension. 
+We are about to develop a new card called PinooBit in order to use each of the GPIO pins available on Microbit actively and easily.
+When users add this extension, a scheme called PinooBit will automatically open between the block tabs.
+With this estension, you will be able to easily code and use sensors compatible with PinooBit.
 
-The editor extension is able to show custom UI in that iframe. It's also able to read and write files in the user's project in the format of ``[extension_name].ts`` and ``[extension_name].json``.
+> Open this page at [https://can-github.github.io/pinoobit-code-blocks/](https://can-github.github.io/pinoobit-code-blocks/)
 
-This sample handle's all the custom message passing required to read, write and request permissions from the MakeCode editor.
+## Use as Extension
 
-## Try it out
+This repository can be added as an **extension** in MakeCode.
 
-https://samelhusseini.github.io/pxt-editor-extension-sample
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/can-github/pinoobit-code-blocks** and import
+* or search for extension PinooBit, Pinoo
 
-## Build
+## Edit this project ![Build status badge](https://github.com/can-github/pb-mesafe-kod/workflows/MakeCode/badge.svg)
 
-First, install Node.
+To edit this repository in MakeCode.
 
-To build the repo, run:
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/can-github/pb-mesafe-kod** and click import
 
-```
-npm install
-```
+## Blocks preview
 
-## Development
+This image shows the blocks code from the last commit in master.
+This image may take a few minutes to refresh.
 
-After this you can run 
-```
-npm run start
-```
-to start the dev server.
+![A rendered view of the blocks](https://github.com/can-github/pinoobit-code-blocks/raw/master/.github/makecode/blocks.png)
 
-This will be running on http://localhost:3000
-
-You can edit your React app under ``src`` and the dev server will hot reload it in the browser. Unless you change styles, you generally don't have to reload it to see your changes during development.
-
-When running locally in a web browser, and not in an iframe, read and write operations are stored in localStorage to make debugging easier.
-
-Webpack will generate the bundled app js when running ``npm run start`` or ``npm run deploy``
-
-This repo uses [semantic-ui-react](https://github.com/Semantic-Org/Semantic-UI-React) as the UI framework, but you can substitue it with any
-
-## Structure
-
-```
-├── src
-│   ├── components
-│   │   ├── **/*.tsx (Your React components)
-│   ├── exporters
-│   │   ├── *.ts (Your emitters)
-│   ├── localtypings
-│   │   ├── *.d.ts (Your local typings)
-│   ├── App.tsx (Main app component)
-│   ├── PXTExtension.tsx (Main Extension handler)
-├── dist
-│   ├── favicon.ico
-│   ├── style.css (Your CSS styles)
-├── node_modules
-├── pxt.json (PXT extension configuration)
-├── package.json
-├── tsconfig.json
-├── tslint.json
-├── webpack.dev.json (Webpack dev configuration)
-├── webpak.prod.json (Webpack prod configuration)
-└── .gitignore
-└── LICENSE
-└── README.md
-```
-
-## Deploy
-
-To deploy your extension to Github pages, run:
-
-```
-npm run deploy
-```
-
-Once deployed, you can search for your package in the relevant MakeCode editor (eg: https://makecode.microbit.org).
-
-Unless you extension is an Approved extension, you will need to search for it using the full Github repo URL. eg: https://github.com/samelhusseini/pxt-editor-extension-sample
-
-## Supported targets
+#### Metadata (used for search, rendering)
 
 * for PXT/microbit
-* for PXT/adafruit
-* for PXT/arcade
-* for PXT/codal
-
-(The metadata above is needed for package search, update it with the targets you support)
-
-## License 
-
-MIT
