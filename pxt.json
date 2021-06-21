@@ -13,9 +13,7 @@
         "README.md",
         "PB.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "supportedTargets": [
         "microbit"
     ],

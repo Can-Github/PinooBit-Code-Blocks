@@ -36,6 +36,11 @@ This image may take a few minutes to refresh.
 
 ![A rendered view of the blocks](https://github.com/can-github/pinoobit-code-blocks/raw/master/.github/makecode/blocks.png)
 
+With this code blocks, our leds looks like blinking. First code is; pick your LED's connecting DigitalPin number and set value 1 or 0. If you pick 1 LED is lights up or pick 0 LED is off.
+After first code add some delay with pause code block. And again pick LED set code. If first code is 0, you set this second LED code for 1. After that add delay. With this codes, our leds blinking.
+
+This code just one example. 
+
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
