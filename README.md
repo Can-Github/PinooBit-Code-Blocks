@@ -11,24 +11,6 @@ You can purchase PinooBit at this link https://www.pinoo.io/
 
 > Open this page at [https://can-github.github.io/pinoobit-code-blocks/](https://can-github.github.io/pinoobit-code-blocks/)
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/can-github/pinoobit-code-blocks** and import
-* or search for extension PinooBit, Pinoo
-
-## Edit this project ![Build status badge](https://github.com/can-github/pb-mesafe-kod/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/can-github/pb-mesafe-kod** and click import
-
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
