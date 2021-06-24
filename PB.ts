@@ -24,9 +24,9 @@ let distance = 0
             pins.digitalWritePin(entrybuzzer, buzzervalue)
     }
     //% block="set servo motor module pin %entryservo value %servovalue"
-    //% servoDegeri.shadow="protractorPicker"
-    export function servo(girisservo: DigitalPin, servoDegeri: number) {
-            pins.digitalWritePin(girisservo, servoDegeri)
+    //% servovalue.shadow="protractorPicker"
+    export function servo(entryservo: DigitalPin, servovalue: number) {
+            pins.digitalWritePin(entryservo, servovalue)
     }
     //% block="read motion detection(PIR) module pin %entrypir value"
     export function pir(entrypir: DigitalPin) {
