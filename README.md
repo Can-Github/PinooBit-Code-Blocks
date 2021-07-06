@@ -40,6 +40,7 @@ With this code we can use LED with our PinooBit shield. In this way coding Micro
 
 ## Set Buzzer Value
 
+There are 2 value for Buzzer: `1` and `2`.
 Use Buzzer Module easiy;
 
 export function buzzer(entrybuzzer: DigitalPin, buzzervalue: number) {
@@ -51,6 +52,7 @@ With this code we can use Buzzer with our PinooBit shield. In this way coding Mi
 
 ## Set Servo Motor Value
 
+It takes values between 0 and 180 angle values: `0` betwwen `180`.
 Use Servo Module easily;
 
 export function servo(girisservo: DigitalPin, servoDegeri: number) {
@@ -62,6 +64,7 @@ With this code we can use Servo Motor with our PinooBit shield. In this way codi
 
 ## Read PIR Module Value;
 
+There are 2 value for PIR: `1` and `2`.
 Use PIR Module easily;
 
 export function pir(entrypir: DigitalPin) {
@@ -73,6 +76,7 @@ With this code we can use Servo Motor with our PinooBit shield. In this way codi
 
 ## Read Potentiometer Module Value;
 
+It takes values between 0 and 1023 potentiometer values: `0` betwwen `1023`.
 Use Potentiometer Module easily;
 
 export function pot(entrypot: AnalogPin) {
@@ -84,6 +88,7 @@ With this code we can use Potentiometer with our PinooBit shield. In this way co
 
 ## Read Joystick Module Value;
 
+It takes values between 0 and 1023 joytisck values: `0` betwwen `1023`. These values must be retrieved using separate code blocks for the x and y coordinates.
 Use Joystick Module easily;
 
 export function joystickx(entryjoyx: AnalogPin) {
@@ -98,6 +103,7 @@ With this code we can use Joystick X and Y coordinate with our PinooBit shield. 
 
 ## Read Soil Moisture Module Value;
 
+It takes values between 0 and 1023 soil moisture values: `0` betwwen `1023`.
 Use Soil Moisture Module easily;    
 
 export function tvn(entrytvn: AnalogPin) {
@@ -109,6 +115,7 @@ With this code we can use Soil Moisture with our PinooBit shield. In this way co
 
 ## Read Water Level Module Value;
 
+It takes values between 0 and 1023 water level values: `0` betwwen `1023`.
 Use Water Level Module easily;
 
 export function water(entrywater: AnalogPin) {
@@ -120,6 +127,7 @@ With this code we can use Water Level with our PinooBit shield. In this way codi
 
 ## Read LDR Module Value;
 
+It takes values between 0 and 1023 ambient light values: `0` betwwen `1023`.
 Use LDR Module easily;
 
 export function isik(entryldr: AnalogPin) {
@@ -131,6 +139,7 @@ With this code we can use LDR with our PinooBit shield. In this way coding Micro
 
 ## Read Ultrasonic Distances Module Value;
 
+It takes values between 0 and 400 distance from the obstacle: `0` betwwen `400`.
 Use Ultrasonic Distances Module easily;
 
 export function distances(entry: DigitalPin, out: DigitalPin) {
