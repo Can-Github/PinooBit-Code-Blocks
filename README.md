@@ -11,10 +11,7 @@ You can purchase PinooBit at this link https://www.pinoo.io/
 
 > Open this page at [https://can-github.github.io/pinoobit-code-blocks/](https://can-github.github.io/pinoobit-code-blocks/)
 
-# Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+## Blocks preview
 
 basic.forever(function () {
     pinooBit.led(DigitalPin.P0, 1)
@@ -29,8 +26,9 @@ After first code add some delay with pause code block. And again pick LED set co
 This code just one example. 
 
 
-- Set Led Value
+## Set Led Value
 
+There are 3 external led modules that can be checked: `Red`, `Yellow` and `Green`.
 Use Led Module easily;
 
 export function led(entryvalue: DigitalPin, ledvalue: number) {
@@ -40,7 +38,7 @@ export function led(entryvalue: DigitalPin, ledvalue: number) {
 With this code we can use LED with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Set Buzzer Value
+## Set Buzzer Value
 
 Use Buzzer Module easiy;
 
@@ -51,7 +49,7 @@ export function buzzer(entrybuzzer: DigitalPin, buzzervalue: number) {
 With this code we can use Buzzer with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Set Servo Motor Value
+## Set Servo Motor Value
 
 Use Servo Module easily;
 
@@ -62,7 +60,7 @@ export function servo(girisservo: DigitalPin, servoDegeri: number) {
 With this code we can use Servo Motor with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read PIR Module Value;
+## Read PIR Module Value;
 
 Use PIR Module easily;
 
@@ -73,7 +71,7 @@ export function pir(entrypir: DigitalPin) {
 With this code we can use Servo Motor with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read Potentiometer Module Value;
+## Read Potentiometer Module Value;
 
 Use Potentiometer Module easily;
 
@@ -84,7 +82,7 @@ export function pot(entrypot: AnalogPin) {
 With this code we can use Potentiometer with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read Joystick Module Value;
+## Read Joystick Module Value;
 
 Use Joystick Module easily;
 
@@ -98,7 +96,7 @@ export function joysticky(entryjoyy: AnalogPin) {
 With this code we can use Joystick X and Y coordinate with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read Soil Moisture Module Value;
+## Read Soil Moisture Module Value;
 
 Use Soil Moisture Module easily;    
 
@@ -109,7 +107,7 @@ export function tvn(entrytvn: AnalogPin) {
 With this code we can use Soil Moisture with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read Water Level Module Value;
+## Read Water Level Module Value;
 
 Use Water Level Module easily;
 
@@ -120,8 +118,7 @@ export function water(entrywater: AnalogPin) {
 With this code we can use Water Level with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-
-- Read LDR Module Value;
+## Read LDR Module Value;
 
 Use LDR Module easily;
 
@@ -132,7 +129,7 @@ export function isik(entryldr: AnalogPin) {
 With this code we can use LDR with our PinooBit shield. In this way coding Micro:bit easily.
 
 
-- Read Ultrasonic Distances Module Value;
+## Read Ultrasonic Distances Module Value;
 
 Use Ultrasonic Distances Module easily;
 
