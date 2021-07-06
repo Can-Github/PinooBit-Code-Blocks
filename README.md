@@ -9,7 +9,7 @@ It's much easier for kids to learn to code with PinooBit and this extension.
 
 You can purchase PinooBit at this link https://www.pinoo.io/
 
-> Open this page at [https://can-github.github.io/pinoobit-code-blocks/](https://can-github.github.io/pinoobit-code-blocks/)
+> Open this page at [https://can-github.github.io/PinooBit-Code-Blocks/](https://can-github.github.io/PinooBit-Code-Blocks/)
 
 ## Blocks preview
 
