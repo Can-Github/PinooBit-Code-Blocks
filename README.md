@@ -7,7 +7,7 @@ When users add this extension, a scheme called PinooBit will automatically open 
 With this estension, you will be able to easily code and use sensors compatible with PinooBit.
 It's much easier for kids to learn to code with PinooBit and this extension.
 
-You can purchase PinooBit at this link https://www.pinoo.io/
+You can purchase PinooBit at this link https://www.pinoo.io/pages/pinoobit?_pos=1&_sid=55f283fe6&_ss=r
 
 > Open this page at [https://can-github.github.io/PinooBit-Code-Blocks/](https://can-github.github.io/PinooBit-Code-Blocks/)
 
