@@ -40,7 +40,7 @@ export function led(entryvalue: DigitalPin, ledvalue: number) {
 
 ## Set Buzzer Value
 
-There are 2 value for Buzzer: `1` and `2`.
+There are 2 value for Buzzer: `0` and `1`.
 
 ```
 export function buzzer(entrybuzzer: DigitalPin, buzzervalue: number) {
@@ -60,7 +60,7 @@ export function servo(girisservo: DigitalPin, servoDegeri: number) {
 
 ## Read PIR Module Value;
 
-There are 2 values for PIR: `1` and `2`.
+There are 2 values for PIR: `0` and `1`.
 
 ```
 export function pir(entrypir: DigitalPin) {
@@ -137,6 +137,16 @@ export function distances(entry: DigitalPin, out: DigitalPin) {
     basic.pause(100)
     }
  ```
+ 
+ ## Set Tilt Value
+
+There are 2 values for Tilt Sensor: `0` and `1`.
+
+```
+export function led(entryvalue: DigitalPin, ledvalue: number) {
+            pins.digitalWritePin(entryvalue, ledvalue)
+    }
+```
 
 #### Metadata (used for search, rendering)
 
