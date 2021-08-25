@@ -56,7 +56,6 @@ let distance = 0
     export function isik(entryldr: AnalogPin) {
             return pins.analogReadPin(entryldr);
     }
-    //% subcategory=MainSensor
     //% block="read tilt and impact module pin %entrytilt value"
     export function tilt(entrytilt: DigitalPin) {
             return pins.digitalReadPin(entrytilt);
